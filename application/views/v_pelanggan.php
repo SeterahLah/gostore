@@ -28,7 +28,6 @@
                         <th>No</th>
                         <th>Nama Pelanggan</th>
                         <th>Email</th>
-                        <th>Password</th>
                         <th>telepon</th>
                         <th>Alamat</th>
                         <th>Aksi</th>
@@ -46,9 +45,6 @@
                             </td>
                             <td>
                                 <?= $value->email ?>
-                            </td>
-                            <td>
-                                <?= $value->password ?>
                             </td>
                             <td>
                                 <?= $value->telepon ?>

@@ -15,10 +15,10 @@
                         <label for="">username</label>
                         <input type="text" name="username" class="form-control" value="<?php echo $data->username ?>">
                     </div>
-                    <div class="for-group">
+                    <!-- <div class="for-group">
                         <label for="">password</label>
-                        <input type="password" name="password" class="form-control" value="<?php echo $data->password ?>">
-                    </div>
+                        <input type="password" name="password" class="form-control" value="php echo $data->password ?>">
+                    </div> -->
                     <div class="form-group">
                         <label>level User</label>
                         <select name="level_user" class="form-control">

@@ -18,10 +18,10 @@
                         <label for="">Email</label>
                         <input type="email" name="email" class="form-control" value="<?php echo $value->email ?>">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="">password</label>
-                        <input type="password" name="password" class="form-control" value="<?php echo $value->password ?>">
-                    </div>
+                        <input type="password" name="password" class="form-control" value=" php echo $value->password ?>">
+                    </div> -->
                     <div class="form-group">
                         <label for="">Telepon</label>
                         <input type="number" name="telepon" class="form-control" value="<?php echo $value->telepon ?>">
