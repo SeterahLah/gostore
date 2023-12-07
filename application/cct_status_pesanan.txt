@@ -1,0 +1,4 @@
+jika value  0 = order
+            1 = masih proses/order
+            2 = dikirim
+            3 = diterima
