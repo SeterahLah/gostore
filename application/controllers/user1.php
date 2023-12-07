@@ -47,12 +47,12 @@ class User1 extends CI_Controller
         $id = $this->input->post('id');
         $nama = $this->input->post('nama');
         $username = $this->input->post('username');
-        $password = $this->input->post('password');
+        //$password = $this->input->post('password');
         $level_user = $this->input->post('level_user');
         $data = array(
             'nama' => $nama,
             'username' => $username,
-            'password' => $password,
+            //'password' => $password,
             'level_user' => $level_user
         );
         $where = array(

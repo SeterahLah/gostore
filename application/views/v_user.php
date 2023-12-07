@@ -4,8 +4,8 @@
             <h3 class="card-title">Data Users</h3>
 
             <div class="card-tools">
-                <button type="button" data-toggle="modal" data-target="#tambah" class="btn btn-warning btn-xs">
-                    <i class="fas fa-plus">Tambah</i>
+                <button type="button" data-toggle="modal" data-target="#tambah" class="btn btn-light rounded btn-xs">
+                    <i class="fas fa-plus"> Tambah</i>
                 </button>
             </div>
             <!-- /.card-tools -->

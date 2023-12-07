@@ -75,14 +75,12 @@ class Pelanggan extends CI_Controller
         $id_pelanggan = $this->input->post('id_pelanggan');
         $nama_pelanggan = $this->input->post('nama_pelanggan');
         $email = $this->input->post('email');
-        $password = $this->input->post('password');
         $telepon = $this->input->post('telepon');
         $alamat = $this->input->post('alamat');
         $foto = $this->input->post('foto');
         $data = array(
             'nama_pelanggan' => $nama_pelanggan,
             'email' => $email,
-            'password' => $password,
             'telepon' => $telepon,
             'alamat' => $alamat,
             'foto' => $foto
