@@ -1,13 +1,9 @@
 <div class="col-md-12">
     <div class="card card-warning shadow-none">
         <div class="card-header">
-            <h3 class="card-title">Data Users</h3>
+            <h3 class="card-title">Data Pelanggan</h3>
 
-            <div class="card-tools">
-                <button type="button" data-toggle="modal" data-target="#tambah" class="btn btn-warning btn-xs">
-                    <i class="fas fa-plus">Tambah</i>
-                </button>
-            </div>
+
             <!-- /.card-tools -->
         </div>
         <!-- /.card-header -->
@@ -53,8 +49,8 @@
                                 <?= $value->alamat ?>
                             </td>
                             <td>
-                                <a href="<?= base_url('pelanggan/edit/' . $value->id_pelanggan) ?>"
-                                    class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <!-- <a href="<= base_url('pelanggan/edit/' . $value->id_pelanggan) ?>"
+                                    class="btn btn-primary btn-sm"><i class="fa-solid fa-pen-to-square"></i></a> -->
                                 <button class="btn btn-danger btn-sm" data-toggle="modal"
                                     data-target="#delete<?= $value->id_pelanggan ?>"><i
                                         class="fa-solid fa-trash"></i></button>

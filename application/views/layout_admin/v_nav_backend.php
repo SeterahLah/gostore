@@ -119,7 +119,7 @@
                         <i class="nav-icon fa-solid fa-users"></i>
 
                         <p>
-                            User Pelanggan
+                            Pelanggan
                         </p>
                     </a>
                 </li>
