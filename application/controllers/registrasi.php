@@ -67,6 +67,7 @@ class Registrasi extends CI_Controller
                 'telepon' => $this->input->post('telepon'),
                 'alamat' => $this->input->post('alamat'),
             );
+            $this->db->set('id_pelanggan', 'UUID()', FALSE);
             $this->m_registrasi->tambah($data);
             $this->session->set_flashdata('pesan', 'pendaftaran Berhasil yah Silakan Login Bossku');
             redirect('registrasi');

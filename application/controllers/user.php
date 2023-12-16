@@ -37,6 +37,7 @@ class User extends CI_Controller
             // 'password' => $this->input->post('password'),
             'level_user' => $this->input->post('level_user'),
         );
+        $this->db->set('id', 'UUID()', FALSE);
         $this->m_user->tambah($data);
         $this->session->set_flashdata('pesan', 'User Berhasil diTambahkan');
         redirect('user');
