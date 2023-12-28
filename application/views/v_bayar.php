@@ -32,7 +32,7 @@
                 </table>
                 <table class="table">
                     <tr>
-                        <td width="200px">Indomaret/Alfamart</td>
+                        <td width="200px">Alfamart/Indomaret</td>
                         <td>
                             <?= $pesanan->no_order ?>
                         </td>

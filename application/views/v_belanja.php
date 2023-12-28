@@ -21,8 +21,8 @@
                         <th>Gambar Produk</th>
                         <!-- <th width="100px">Gambar</th> -->
                         <th>Nama Produk</th>
-                        <th width="100px">QTY</th>
                         <th style="text-align:right">harga</th>
+                        <th width="100px">QTY</th>
                         <th style="text-align:right">Sub-Total</th>
                         <th style="text-align:right">Berat</th>
                         <th class="text-center">Aksi</th>
@@ -45,12 +45,12 @@
                             <td>
                                 <?php echo $items['name']; ?>
                             </td>
-                            <td>
-                                <?php echo form_input(array('name' => $i . '[qty]', 'value' => $items['qty'], 'maxlength' => '3', 'size' => '5', 'type' => 'number', 'class' => 'form-control', 'min' => '0')); ?>
-                            </td>
                             <td style="text-align:right">
                                 Rp.
                                 <?php echo number_format($items['price'], 0, ',', '.'); ?>,-
+                            </td>
+                            <td>
+                                <?php echo form_input(array('name' => $i . '[qty]', 'value' => $items['qty'], 'maxlength' => '3', 'size' => '5', 'type' => 'number', 'class' => 'form-control', 'min' => '0')); ?>
                             </td>
                             <td style="text-align:right">Rp.
                                 <?php echo number_format($items['subtotal'], 0, ',', '.'); ?>,-
