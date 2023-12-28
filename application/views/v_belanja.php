@@ -70,7 +70,7 @@
 
                     <tr>
                         <td class="text-left">
-                            <b>Total |</b>
+                            <b>Total Belanja :</b>
                         </td>
                         <td class="text-left">
                             <b>
@@ -79,8 +79,7 @@
 
                             </b>
                         </td>
-                        <th>Total Berat :
-
+                        <th width="150px">Total Berat :
                         </th>
                         <td><b>
                                 <?= $tot_berat ?> Gram

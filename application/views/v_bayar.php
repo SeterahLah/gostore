@@ -30,8 +30,15 @@
                         </tr>
                     <?php } ?>
                 </table>
-                <br>
-                <br>
+                <table class="table">
+                    <tr>
+                        <td width="200px">Indomaret/Alfamart</td>
+                        <td>
+                            <?= $pesanan->no_order ?>
+                        </td>
+                        <td>GO STORE</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
